@@ -1,3 +1,61 @@
-
-
 @import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", sans-serif;
+}
+@layer base {
+
+  html {
+    @apply font-sans;
+  }
+
+}
+
+/* font */
+/* تایتل های انبورد  */
+@utility text-heading-32 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+}
+/* دکمه انبورد */
+@utility text-button-14 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
+
+
+/* Swiper */
+.swiper, 
+.swiper-wrapper, 
+.swiper-slide {
+  height: 100vh; 
+  width: 100%;
+}
+.swiper:not(.swiper-initialized) {
+  opacity: 0;
+  visibility: hidden;
+}
+.swiper.swiper-initialized {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.4s ease-in-out;
+}
+.swiper-pagination{
+    bottom: 13% !important;
+}
+
+.swiper-pagination-bullet {
+ width: 30px !important;  
+  height: 3px !important; 
+  border-radius: 2px !important;
+  background-color: #eee; 
+  opacity: 1; 
+  transition: all 0.3s ease;
+}
+ 
+.swiper-pagination-bullet-active {
+  background-color: #000 !important;
+}
