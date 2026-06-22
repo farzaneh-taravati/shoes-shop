@@ -1,1 +1,48 @@
-<div>This is login</div>
+<div class="h-screen relative flex flex-col items-center">
+
+  <div class="px-6 w-full absolute top-0">
+    <div class="h-14 flex justify-start" data-lucide="arrow-left" width="16" height="14"></div>
+  </div>
+
+  <div class="absolute top-[118px]">
+    <img src="/images/logo2.jpg" alt="logo">
+  </div>
+
+  <div class="absolute top-[317px] bottom-0 w-full p-6 flex flex-col">
+
+    <div class="flex flex-col items-center h-full">
+      <p class="text-heading-32 mb-12">Login to Your Account</p>
+
+      <form id="login-form" class="flex flex-col h-full w-full">
+
+        <div class="flex flex-col items-center">
+          
+          <div class="h-[37px] mb-[21px] w-full flex items-center gap-1 px-2 py-3 bg-[#fafafa] focus-within:border-2 focus-within:border-black rounded">
+            <span data-lucide="mail" width="16" height="16" class="text-gray-500"></span>
+            <input id="email-input" class="outline-none bg-transparent w-full" type="email" required placeholder="Email">
+          </div>
+
+          <div class="h-[37px] mb-10 w-full flex items-center gap-1 px-2 py-3 bg-[#fafafa] focus-within:border-2 focus-within:border-black rounded">
+            <span data-lucide="lock-keyhole" width="16" height="16" class="text-gray-500"></span>
+            <input id="password-input" class="outline-none bg-transparent w-full" type="password" required placeholder="Password">
+            <span class="ml-auto text-gray-500" data-lucide="eye-off" width="14" height="14"></span>
+          </div>
+
+          <label class="flex items-center gap-2 font-normal text-base leading-[150%]">
+            <input id="remember" type="checkbox" class="w-4 h-4 accent-black border-gray-400">
+            Remember me
+          </label>
+
+        </div>
+
+        <button id="signin-btn" type="submit" disabled
+          class="mt-auto mb-8 w-full h-12 rounded-4xl bg-[#212529] opacity-65 text-[#fefefe] text-button-14">Sign in
+        </button>
+
+      </form>
+
+    </div>
+
+  </div>
+
+</div>
