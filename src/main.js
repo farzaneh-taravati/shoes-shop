@@ -23,18 +23,14 @@ import * as navComponent from "./components/nav.js";
 //home-header component
 import * as homeHeaderComponent from "./components/home-header.js";
 
-//home
-import { fetchData, getBrands } from './utils/functions.js';
 
-
-// ── map کامپوننت‌ها ────────────────────────────────────────────────
+// ── map کامپوننت‌ها 
 const componentModules = {
     nav: navComponent,
     "home-header": homeHeaderComponent,
 };
 
-
-// ── لود یه صفحه و اجرای init اختصاصی‌اش ──────────────────────────
+//  لود یه صفحه و اجرای init اختصاصیش 
 export async function loadPage(pageName, params = {}) {
     try {
         const response = await fetch(`/src/pages/${pageName}.html`);
@@ -45,7 +41,7 @@ export async function loadPage(pageName, params = {}) {
         //icon ha
         renderIcons();
 
-        // بعد از تزریق HTML، init مربوط به هر صفحه رو اجرا کن
+        //بعد از پر شدن HTML، init هر صفحه رو اجرا کن
         if (pageName === "loading") {
             redirectUser();
         } else if (pageName === "onboarding") {
