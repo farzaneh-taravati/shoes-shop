@@ -1,4 +1,1815 @@
 {
-  
+  "brands": [
+    {
+      "id": 1,
+      "name": "Nike",
+      "logo": "/brandlogo/nike-8.svg"
+    },
+    {
+      "id": 2,
+      "name": "Adidas",
+      "logo": "/brandlogo/addidas-1.svg"
+    },
+    {
+      "id": 3,
+      "name": "Puma",
+      "logo": "/brandlogo/puma-logo.svg"
+    },
+    {
+      "id": 4,
+      "name": "Asics",
+      "logo": "/brandlogo/asics-6.svg"
+    },
+    {
+      "id": 5,
+      "name": "New Balance",
+      "logo": "/brandlogo/new-balance-3.svg"
+    },
+    {
+      "id": 6,
+      "name": "Reebok",
+      "logo": "/brandlogo/reebok-2019-logo.svg"
+    },
+    {
+      "id": 7,
+      "name": "Saucony",
+      "logo": "/brandlogo/saucony-brand.svg"
+    },
+    {
+      "id": 8,
+      "name": "Under Armour",
+      "logo": "/brandlogo/under-armour-logo.svg"
+    },
+    {
+      "id": 9,
+      "name": "Mizuno",
+      "logo": "/brandlogo/mizuno-3.svg"
+    },
+    {
+      "id": 10,
+      "name": "Brooks",
+      "logo": "/brandlogo/brooks-3.svg"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Nike Velocity Strike",
+      "brand": "Nike",
+      "price": "147",
+      "reviews-count": 482,
+      "rate": 4.1,
+      "sold-count": 5293,
+      "inStock": 5,
+      "description": "High-response foam for explosive takeoffs on the track.",
+      "size": [
+        36,
+        38,
+        41,
+        42
+      ],
+      "color": [
+        "rgb(0,0,0)",
+        "rgb(255,255,255)",
+        "rgb(0,255,0)",
+        "rgb(255,165,0)"
+      ],
+      "images": [
+        "https://static.nike.com/a/images/t_web_pdp_936_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ca54b84b-dca1-49a2-9514-e4d0b68b11ca/WMNS+AIR+JORDAN+3+RETRO.png",
+        "https://static.nike.com/a/images/t_web_pdp_936_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/58340057-aa95-4faf-9a12-5d79a675d2a9/WMNS+AIR+JORDAN+3+RETRO.png",
+        "https://static.nike.com/a/images/t_web_pdp_936_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/e409da32-ae4f-4e67-8127-6866befa4f71/WMNS+AIR+JORDAN+3+RETRO.png",
+        "https://static.nike.com/a/images/t_web_pdp_936_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d66f20a3-0f7f-4e56-94e4-e950070e72f1/WMNS+AIR+JORDAN+3+RETRO.png"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Nike Air Zoom Pegasus",
+      "brand": "Nike",
+      "price": "218",
+      "reviews-count": 147,
+      "rate": 3.2,
+      "sold-count": 6813,
+      "inStock": 0,
+      "description": "The workhorse with wings, built for speed.",
+      "size": [
+        36,
+        38,
+        39,
+        41,
+        42
+      ],
+      "color": [
+        "rgb(255,192,203)",
+        "rgb(255,165,0)",
+        "rgb(255,255,255)",
+        "rgb(0,0,255)",
+        "rgb(255,0,0)"
+      ],
+      "images": [
+        "https://static.nike.com/a/images/t_web_pdp_936_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/6667b566-4a3b-4f72-a787-2b9f5f133216/WMNS+AIR+JORDAN+4+RETRO+TEX.png",
+        "https://static.nike.com/a/images/t_web_pdp_936_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/025c13bd-f77a-42f3-9711-5a225de36758/WMNS+AIR+JORDAN+4+RETRO+TEX.png",
+        "https://static.nike.com/a/images/t_web_pdp_936_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/eb0525b8-625c-4665-ae82-c648dd9105e6/WMNS+AIR+JORDAN+4+RETRO+TEX.png",
+        "https://static.nike.com/a/images/t_web_pdp_936_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/6c9f93df-2d6c-4bf2-a148-4f24e82180fa/WMNS+AIR+JORDAN+4+RETRO+TEX.png"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Nike Free Run Motion",
+      "brand": "Nike",
+      "price": "183",
+      "reviews-count": 427,
+      "rate": 3.4,
+      "sold-count": 7824,
+      "inStock": 16,
+      "description": "Barefoot-like flexibility for natural movement.",
+      "size": [
+        36,
+        37,
+        39,
+        40
+      ],
+      "color": [
+        "rgb(255,192,203)",
+        "rgb(0,0,255)",
+        "rgb(0,255,0)",
+        "rgb(128,128,128)"
+      ],
+      "images": [
+        "https://static.nike.com/a/images/t_web_pdp_936_v2/f_auto,u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/bcdb9e3a-22e8-474d-affd-d722cc2c12f3/W+NIKE+DUNK+LOW+SE.png",
+        "https://static.nike.com/a/images/t_web_pdp_936_v2/f_auto,u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ad7e2594-e5b1-47a7-9b8c-e30c4e49da2b/W+NIKE+DUNK+LOW+SE.png",
+        "https://static.nike.com/a/images/t_web_pdp_936_v2/f_auto,u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/534b4684-8654-4d39-94c6-d807437d037a/W+NIKE+DUNK+LOW+SE.png",
+        "https://static.nike.com/a/images/t_web_pdp_936_v2/f_auto,u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/3e5202a3-fe83-40e4-805a-54aa8dbdd31a/W+NIKE+DUNK+LOW+SE.png"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Nike Metcon Training",
+      "brand": "Nike",
+      "price": "153",
+      "reviews-count": 381,
+      "rate": 3.3,
+      "sold-count": 1944,
+      "inStock": 17,
+      "description": "The gold standard for gym and weightlifting.",
+      "size": [
+        37,
+        39,
+        40,
+        42,
+        43
+      ],
+      "color": [
+        "rgb(0,0,255)",
+        "rgb(255,0,0)",
+        "rgb(128,128,128)",
+        "rgb(255,255,255)",
+        "rgb(0,255,0)"
+      ],
+      "images": [
+        "https://static.nike.com/a/images/t_web_pdp_936_v2/f_auto,u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/abc8386e-fe79-4bdf-be12-a4d5a3c21dd0/W+PEGASUS+TRAIL+5+GTX.png",
+        "https://static.nike.com/a/images/t_web_pdp_936_v2/f_auto,u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/8fbe8b2b-4fd6-444f-8ba6-7531e5a0e4f6/W+PEGASUS+TRAIL+5+GTX.png",
+        "https://static.nike.com/a/images/t_web_pdp_936_v2/f_auto,u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/7c23ca50-2684-4bdc-8a62-f1d82bd4ba99/W+PEGASUS+TRAIL+5+GTX.png",
+        "https://static.nike.com/a/images/t_web_pdp_936_v2/f_auto,u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/273b67a1-7552-49ca-abdd-3add5f69d3c9/W+PEGASUS+TRAIL+5+GTX.png"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Nike Epic React Flyknit",
+      "brand": "Nike",
+      "price": "210",
+      "reviews-count": 290,
+      "rate": 4.5,
+      "sold-count": 3400,
+      "inStock": 8,
+      "description": "Incredibly soft cushioning that lasts.",
+      "size": [
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "color": [
+        "rgb(255,255,255)",
+        "rgb(0,0,0)",
+        "rgb(0,0,255)"
+      ],
+      "images": [
+        "https://static.nike.com/a/images/t_web_pdp_936_v2/f_auto,u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/99fdabcc-2562-4986-89b1-179830a31cb7/W+NIKE+CORTEZ.png",
+        "https://static.nike.com/a/images/t_web_pdp_936_v2/f_auto,u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4b7d9094-567f-4134-8200-07addfc1a321/W+NIKE+CORTEZ.png",
+        "https://static.nike.com/a/images/t_web_pdp_936_v2/f_auto,u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/1434cf63-270e-48ed-b6f7-120db9c0a158/W+NIKE+CORTEZ.png",
+        "https://static.nike.com/a/images/t_web_pdp_936_v2/f_auto,u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/8e8d1a1d-a459-4fef-894f-5c9e7cb2b72d/W+NIKE+CORTEZ.png"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Nike Vaporfly Next",
+      "brand": "Nike",
+      "price": "299",
+      "reviews-count": 512,
+      "rate": 4.9,
+      "sold-count": 9100,
+      "inStock": 2,
+      "description": "Carbon plate technology for race-day records.",
+      "size": [
+        37,
+        40,
+        41,
+        42,
+        43
+      ],
+      "color": [
+        "rgb(255,0,0)",
+        "rgb(255,255,255)"
+      ],
+      "images": [
+        "https://static.nike.com/a/images/t_web_pdp_936_v2/f_auto,u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/7b9e12bf-1a21-43b7-8257-6ad01555713b/W+NIKE+METCON+10.png",
+        "https://static.nike.com/a/images/t_web_pdp_936_v2/f_auto,u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/792b11af-f7be-4a7e-b7e6-a0b2e477ca6d/W+NIKE+METCON+10.png",
+        "https://static.nike.com/a/images/t_web_pdp_936_v2/f_auto,u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/f0752c3e-e306-4ea2-9ca6-e46ea31f30b4/W+NIKE+METCON+10.png",
+        "https://static.nike.com/a/images/t_web_pdp_936_v2/f_auto,u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/62141faa-4730-4e06-a974-ccbcb03cae84/W+NIKE+METCON+10.png"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Nike Revolution Dynamic",
+      "brand": "Nike",
+      "price": "95",
+      "reviews-count": 150,
+      "rate": 3.8,
+      "sold-count": 6700,
+      "inStock": 20,
+      "description": "Simple design for everyday comfortable wear.",
+      "size": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "color": [
+        "rgb(128,128,128)",
+        "rgb(0,0,0)"
+      ],
+      "images": [
+        "https://static.nike.com/a/images/t_web_pdp_936_v2/f_auto,u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/a4e70d5f-1622-489a-86d0-caaa9059332a/W+NIKE+REVOLUTION+8.png",
+        "https://static.nike.com/a/images/t_web_pdp_936_v2/f_auto,u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/f311ec4e-fb06-4ade-a27f-fa7ca0839500/W+NIKE+REVOLUTION+8.png",
+        "https://static.nike.com/a/images/t_web_pdp_936_v2/f_auto,u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/6e3cfc4a-5072-4d18-8dee-ebd8dfef037e/W+NIKE+REVOLUTION+8.png",
+        "https://static.nike.com/a/images/t_web_pdp_936_v2/f_auto,u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/8395cc14-deca-4aa7-8308-7e6c3e46c776/W+NIKE+REVOLUTION+8.png"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Nike Structure Zoom",
+      "brand": "Nike",
+      "price": "175",
+      "reviews-count": 210,
+      "rate": 4.0,
+      "sold-count": 4200,
+      "inStock": 12,
+      "description": "Reliable stability for daily road runners.",
+      "size": [
+        38,
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "color": [
+        "rgb(0,0,255)",
+        "rgb(255,165,0)"
+      ],
+      "images": [
+        "https://static.nike.com/a/images/t_web_pdp_936_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/de097ffc-837c-4b5d-b482-0b6edea3a20a/WMNS+JORDAN+TRUNNER+O%2FS.png",
+        "https://static.nike.com/a/images/t_web_pdp_936_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/931a075f-f1bb-4c0e-a096-63031b7423e4/WMNS+JORDAN+TRUNNER+O%2FS.png",
+        "https://static.nike.com/a/images/t_web_pdp_936_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/f54e61bf-346d-47e1-ba64-7eb51b001c21/WMNS+JORDAN+TRUNNER+O%2FS.png",
+        "https://static.nike.com/a/images/t_web_pdp_936_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/485a0136-a5af-439e-bba9-6cb9f8ec9c23/WMNS+JORDAN+TRUNNER+O%2FS.png"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Adidas Terrex Flow",
+      "brand": "Adidas",
+      "price": "283",
+      "reviews-count": 273,
+      "rate": 4.9,
+      "sold-count": 8114,
+      "inStock": 14,
+      "description": "Hybrid trail-to-street design with rugged grip.",
+      "size": [
+        37,
+        40,
+        42,
+        43
+      ],
+      "color": [
+        "rgb(128,128,128)",
+        "rgb(255,192,203)",
+        "rgb(0,255,0)",
+        "rgb(255,0,0)",
+        "rgb(0,0,0)"
+      ],
+      "images": [
+        "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/ad072f5a2ea14037afa9985d7c0a1053_9366/SAMBA_OG_SHOES_Beige_KK2272_01_00_standard.jpg",
+        "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/6f35dd11daf64d2f80a6130d1484125d_9366/SAMBA_OG_SHOES_Beige_KK2272_02_standard.jpg",
+        "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/5645a097862f4718b3d650e160d8b3e6_9366/SAMBA_OG_SHOES_Beige_KK2272_04_standard.jpg",
+        "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/11546b3b37cf4d1c8a0e4ed9fad22913_9366/SAMBA_OG_SHOES_Beige_KK2272_05_standard.jpg"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Adidas Ultraboost Light",
+      "brand": "Adidas",
+      "price": "87",
+      "reviews-count": 393,
+      "rate": 4.6,
+      "sold-count": 5938,
+      "inStock": 12,
+      "description": "Lighter than ever, same incredible energy return.",
+      "size": [
+        38,
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "color": [
+        "rgb(0,0,255)",
+        "rgb(255,0,0)",
+        "rgb(128,128,128)",
+        "rgb(0,0,0)"
+      ],
+      "images": [
+                "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/fc2d47fda0124e1eb951517176bad6bc_9366/Samba_Indoor_Soccer_Shoes_Black_IH6000_04_standard.jpg",
+                "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/3310c1c37be9448c966a08ee8585e643_9366/Samba_Indoor_Soccer_Shoes_Black_IH6000_41_detail.jpg",
+        "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/501713fffe474d0ca83b1bc688086afd_9366/Samba_Indoor_Soccer_Shoes_Black_IH6000_02_standard_hover.jpg",
+        "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/0cd05e5f5d544956927342937650fc9d_9366/Samba_Indoor_Soccer_Shoes_Black_IH6000_22_model.jpg"
+
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Adidas Solar Boost",
+      "brand": "Adidas",
+      "price": "260",
+      "reviews-count": 224,
+      "rate": 3.7,
+      "sold-count": 5262,
+      "inStock": 16,
+      "description": "Versatile shoe for long-distance training.",
+      "size": [
+        37,
+        38,
+        39,
+        41,
+        42,
+        43
+      ],
+      "color": [
+        "rgb(0,0,0)",
+        "rgb(255,165,0)",
+        "rgb(255,192,203)",
+        "rgb(0,255,0)",
+        "rgb(255,0,0)",
+        "rgb(128,128,128)"
+      ],
+      "images": [
+        "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/4d4c2b05a5e04949b7eaefaeb52ad07e_9366/Samba_Messi_Shoes_Turquoise_KI8505_04_standard.jpg",
+        "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/119c9273c0824070bf8caea297cdde9e_9366/Samba_Messi_Shoes_Turquoise_KI8505_02_standard.jpg",
+        "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/3c1ffc15740648d783ded0bd215af03a_9366/Samba_Messi_Shoes_Turquoise_KI8505_22_model.jpg",
+        "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/9b88171629f44770886ca85dd63b4f44_9366/Samba_Messi_Shoes_Turquoise_KI8505_09_standard.jpg"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Adidas Questar Flow",
+      "brand": "Adidas",
+      "price": "146",
+      "reviews-count": 484,
+      "rate": 3.7,
+      "sold-count": 8740,
+      "inStock": 1,
+      "description": "Clean, simple style with everyday cushioning.",
+      "size": [
+        36,
+        38,
+        41,
+        42
+      ],
+      "color": [
+        "rgb(0,255,0)",
+        "rgb(0,0,255)",
+        "rgb(255,165,0)",
+        "rgb(0,0,0)"
+      ],
+      "images": [
+        "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/bb98e1a50c7b427bb485e4524c2539d8_9366/Five_Ten_Freerider_Pro_BOAr_Mountain_Bike_Shoes_Black_IH3050_01_00_standard.jpg",
+        "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/fe6b7465d5c546d79e21edc98ea6afef_9366/Five_Ten_Freerider_Pro_BOAr_Mountain_Bike_Shoes_Black_IH3050_02_standard_hover.jpg",
+        "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/54c6cb8042294f249466e530bc94e626_9366/Five_Ten_Freerider_Pro_BOAr_Mountain_Bike_Shoes_Black_IH3050_05_standard.jpg",
+        "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/3a38b3187bff42928867681fe13cb7cf_9366/Five_Ten_Freerider_Pro_BOAr_Mountain_Bike_Shoes_Black_IH3050_09_standard.jpg"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Adidas Supernova Rise",
+      "brand": "Adidas",
+      "price": "150",
+      "reviews-count": 310,
+      "rate": 4.1,
+      "sold-count": 4100,
+      "inStock": 9,
+      "description": "Comfortable support for your daily run.",
+      "size": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "color": [
+        "rgb(255,255,255)",
+        "rgb(0,0,0)"
+      ],
+      "images": [
+        "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/fe9b4bd3d7f744fca0924b8ca8d2260e_9366/SLEUTH_DLX_2_Shoes_White_JR3871_01_00_standard.jpg",
+        "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/5cebc030da5e478d9a8cd59fa7d74b3d_9366/SLEUTH_DLX_2_Shoes_White_JR3871_02_standard_hover.jpg",
+        "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/d326a853f2ec48babdf020de24359fa3_9366/SLEUTH_DLX_2_Shoes_White_JR3871_04_standard.jpg",
+        "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/b36e43120b1744a7931772e58c5461e0_9366/SLEUTH_DLX_2_Shoes_White_JR3871_05_standard.jpg"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Puma Ignite Pro",
+      "brand": "Puma",
+      "price": "184",
+      "reviews-count": 224,
+      "rate": 2.1,
+      "sold-count": 2575,
+      "inStock": 1,
+      "description": "Engineered for maximum energy return and stability.",
+      "size": [
+        38,
+        40,
+        41,
+        42,
+        43
+      ],
+      "color": [
+        "rgb(0,0,0)",
+        "rgb(255,0,0)",
+        "rgb(0,0,255)",
+        "rgb(128,128,128)",
+        "rgb(255,165,0)"
+      ],
+      "images": [
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/313904/03/fnd/PNA/fmt/png/Deviate-Pure-NITRO%E2%84%A2-Men's-Running-Shoes",
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/313904/03/bv/fnd/PNA/fmt/png/Deviate-Pure-NITRO%E2%84%A2-Men's-Running-Shoes",
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/313904/03/sv02/fnd/PNA/fmt/png/Deviate-Pure-NITRO%E2%84%A2-Men's-Running-Shoes",
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/313904/03/sv04/fnd/PNA/fmt/png/Deviate-Pure-NITRO%E2%84%A2-Men's-Running-Shoes"
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Puma Velocity Nitro",
+      "brand": "Puma",
+      "price": "119",
+      "reviews-count": 272,
+      "rate": 4.6,
+      "sold-count": 2726,
+      "inStock": 3,
+      "description": "Nitro foam infused for elite responsiveness.",
+      "size": [
+        36,
+        39,
+        40,
+        42
+      ],
+      "color": [
+        "rgb(255,255,255)",
+        "rgb(0,0,255)",
+        "rgb(0,255,0)",
+        "rgb(255,165,0)"
+      ],
+      "images": [
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/313692/02/sv01/fnd/PNA/fmt/png/Fast-FWD-NITRO%E2%84%A2-Elite-2-Men's-Road-Running-Shoes",
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/313692/02/fnd/PNA/fmt/png/Fast-FWD-NITRO%E2%84%A2-Elite-2-Men's-Road-Running-Shoes",
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/313692/02/sv02/fnd/PNA/fmt/png/Fast-FWD-NITRO%E2%84%A2-Elite-2-Men's-Road-Running-Shoes",
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/313692/02/bv/fnd/PNA/fmt/png/Fast-FWD-NITRO%E2%84%A2-Elite-2-Men's-Road-Running-Shoes"
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Puma Deviate Nitro",
+      "brand": "Puma",
+      "price": "141",
+      "reviews-count": 313,
+      "rate": 2.2,
+      "sold-count": 2503,
+      "inStock": 19,
+      "description": "Carbon plate shoe for race-day speed.",
+      "size": [
+        36,
+        37,
+        39,
+        40,
+        42
+      ],
+      "color": [
+        "rgb(255,192,203)",
+        "rgb(0,255,0)",
+        "rgb(255,255,255)",
+        "rgb(0,0,255)",
+        "rgb(128,128,128)"
+      ],
+      "images": [
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/312123/25/fnd/PNA/fmt/png/Deviate-NITRO%E2%84%A2-4-Men's-Road-Running-Shoes",
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/312123/25/bv/fnd/PNA/fmt/png/Deviate-NITRO%E2%84%A2-4-Men's-Road-Running-Shoes",
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/312123/25/sv02/fnd/PNA/fmt/png/Deviate-NITRO%E2%84%A2-4-Men's-Road-Running-Shoes",
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/312123/25/sv03/fnd/PNA/fmt/png/Deviate-NITRO%E2%84%A2-4-Men's-Road-Running-Shoes"
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Puma Softride Rift",
+      "brand": "Puma",
+      "price": "291",
+      "reviews-count": 352,
+      "rate": 2.7,
+      "sold-count": 7183,
+      "inStock": 2,
+      "description": "Extreme cushioning with an easy-on design.",
+      "size": [
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "color": [
+        "rgb(255,192,203)",
+        "rgb(255,255,255)",
+        "rgb(0,0,0)",
+        "rgb(128,128,128)",
+        "rgb(0,0,255)"
+      ],
+      "images": [
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/398846/67/sv01/fnd/PNA/fmt/png/Speedcat-OG-Sneakers",
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/398846/67/fnd/PNA/fmt/png/Speedcat-OG-Sneakers",
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/398846/67/bv/fnd/PNA/fmt/png/Speedcat-OG-Sneakers",
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/398846/67/sv04/fnd/PNA/fmt/png/Speedcat-OG-Sneakers"
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Puma RS-X Pop",
+      "brand": "Puma",
+      "price": "130",
+      "reviews-count": 450,
+      "rate": 4.3,
+      "sold-count": 3900,
+      "inStock": 7,
+      "description": "Retro future design with bold colors.",
+      "size": [
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "color": [
+        "rgb(255,165,0)",
+        "rgb(0,0,255)"
+      ],
+      "images": [
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/108955/01/sv01/fnd/PNA/fmt/png/FUTURE-9-ULTIMATE-CA-LA-Men's-Firm-Ground-Soccer-Cleats",
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/108955/01/fnd/PNA/fmt/png/FUTURE-9-ULTIMATE-CA-LA-Men's-Firm-Ground-Soccer-Cleats",
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/108955/01/sv02/fnd/PNA/fmt/png/FUTURE-9-ULTIMATE-CA-LA-Men's-Firm-Ground-Soccer-Cleats",
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/108955/01/bv/fnd/PNA/fmt/png/FUTURE-9-ULTIMATE-CA-LA-Men's-Firm-Ground-Soccer-Cleats"
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Puma Future Rider",
+      "brand": "Puma",
+      "price": "95",
+      "reviews-count": 600,
+      "rate": 4.0,
+      "sold-count": 8200,
+      "inStock": 14,
+      "description": "Casual lifestyle runner with bouncy feel.",
+      "size": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "color": [
+        "rgb(255,0,0)",
+        "rgb(255,255,255)"
+      ],
+      "images": [
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/403692/02/sv01/fnd/PNA/fmt/png/H-Street-OG-Sneakers",
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/403692/02/fnd/PNA/fmt/png/H-Street-OG-Sneakers",
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/403692/02/bv/fnd/PNA/fmt/png/H-Street-OG-Sneakers",
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/403692/02/sv03/fnd/PNA/fmt/png/H-Street-OG-Sneakers"
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Puma Magnify Nitro",
+      "brand": "Puma",
+      "price": "160",
+      "reviews-count": 210,
+      "rate": 4.5,
+      "sold-count": 2100,
+      "inStock": 5,
+      "description": "Max cushioning for long distance journeys.",
+      "size": [
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "color": [
+        "rgb(0,0,0)",
+        "rgb(128,128,128)"
+      ],
+      "images": [
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/407331/01/sv01/fnd/PNA/fmt/png/Fade-LS-Sneakers",
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/407331/01/fnd/PNA/fmt/png/Fade-LS-Sneakers",
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/407331/01/bv/fnd/PNA/fmt/png/Fade-LS-Sneakers",
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/407331/01/sv04/fnd/PNA/fmt/png/Fade-LS-Sneakers"
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Asics Gel-Nimbus Elite",
+      "brand": "Asics",
+      "price": "291",
+      "reviews-count": 401,
+      "rate": 4.5,
+      "sold-count": 2235,
+      "inStock": 18,
+      "description": "Cloud-like cushioning for long-distance marathoners.",
+      "size": [
+        36,
+        37,
+        40,
+        41,
+        43
+      ],
+      "color": [
+        "rgb(0,255,0)",
+        "rgb(255,0,0)",
+        "rgb(0,0,255)",
+        "rgb(255,255,255)",
+        "rgb(128,128,128)"
+      ],
+      "images": []
+    },
+    {
+      "id": 32,
+      "name": "Asics Kayano Tech",
+      "brand": "Asics",
+      "price": "148",
+      "reviews-count": 415,
+      "rate": 4.0,
+      "sold-count": 4836,
+      "inStock": 10,
+      "description": "Advanced stability technology for overpronators.",
+      "size": [
+        37,
+        38,
+        41,
+        43
+      ],
+      "color": [
+        "rgb(255,165,0)",
+        "rgb(0,0,255)",
+        "rgb(0,0,0)",
+        "rgb(255,0,0)",
+        "rgb(128,128,128)"
+      ],
+      "images": []
+    },
+    {
+      "id": 33,
+      "name": "Asics Novablast Elite",
+      "brand": "Asics",
+      "price": "173",
+      "reviews-count": 425,
+      "rate": 4.1,
+      "sold-count": 8663,
+      "inStock": 9,
+      "description": "Bouncy, energetic ride with massive cushion.",
+      "size": [
+        36,
+        38,
+        41,
+        42,
+        43
+      ],
+      "color": [
+        "rgb(255,0,0)",
+        "rgb(255,165,0)",
+        "rgb(0,0,255)",
+        "rgb(255,255,255)"
+      ],
+      "images": []
+    },
+    {
+      "id": 34,
+      "name": "Asics Cumulus Tech",
+      "brand": "Asics",
+      "price": "180",
+      "reviews-count": 427,
+      "rate": 2.2,
+      "sold-count": 7679,
+      "inStock": 17,
+      "description": "Versatile running shoe for every distance.",
+      "size": [
+        36,
+        37,
+        39,
+        40,
+        41,
+        42
+      ],
+      "color": [
+        "rgb(255,165,0)",
+        "rgb(0,255,0)",
+        "rgb(255,0,0)",
+        "rgb(128,128,128)",
+        "rgb(255,255,255)",
+        "rgb(0,0,0)"
+      ],
+      "images": []
+    },
+    {
+      "id": 35,
+      "name": "Asics GT-2000 Stabil",
+      "brand": "Asics",
+      "price": "140",
+      "reviews-count": 380,
+      "rate": 4.4,
+      "sold-count": 5200,
+      "inStock": 7,
+      "description": "Dependable support for miles on end.",
+      "size": [
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "color": [
+        "rgb(0,0,0)",
+        "rgb(255,255,255)"
+      ],
+      "images": []
+    },
+    {
+      "id": 36,
+      "name": "Asics Gel-Contend",
+      "brand": "Asics",
+      "price": "75",
+      "reviews-count": 550,
+      "rate": 4.0,
+      "sold-count": 9100,
+      "inStock": 22,
+      "description": "Durable and cushioned entry-level runner.",
+      "size": [
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "color": [
+        "rgb(0,0,255)",
+        "rgb(0,0,0)"
+      ],
+      "images": []
+    },
+    {
+      "id": 37,
+      "name": "Asics Fujispeed Trail",
+      "brand": "Asics",
+      "price": "190",
+      "reviews-count": 150,
+      "rate": 4.6,
+      "sold-count": 1800,
+      "inStock": 4,
+      "description": "Fast and light for technical trail running.",
+      "size": [
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "color": [
+        "rgb(255,0,0)",
+        "rgb(128,128,128)"
+      ],
+      "images": []
+    },
+    {
+      "id": 41,
+      "name": "NB Fresh Foam X More",
+      "brand": "New Balance",
+      "price": "295",
+      "reviews-count": 139,
+      "rate": 3.7,
+      "sold-count": 7820,
+      "inStock": 17,
+      "description": "Experience unparalleled plushness with our thickest Fresh Foam midsole yet. Designed specifically for long-distance runners who crave maximum underfoot comfort and a smooth, stable ride regardless of the terrain.",
+      "size": [
+        36,
+        37,
+        39,
+        41,
+        42,
+        43
+      ],
+      "color": [
+        "rgb(0,0,255)",
+        "rgb(0,0,0)",
+        "rgb(255,192,203)"
+      ],
+      "images": []
+    },
+    {
+      "id": 42,
+      "name": "NB FuelCell Rebel v4",
+      "brand": "New Balance",
+      "price": "260",
+      "reviews-count": 372,
+      "rate": 4.2,
+      "sold-count": 3396,
+      "inStock": 15,
+      "description": "Built for speed and agility, the FuelCell foam provides a high-rebound experience that propels you forward with every stride. Perfect for tempo workouts and race days where weight and response are critical.",
+      "size": [
+        36,
+        39,
+        40,
+        41,
+        43
+      ],
+      "color": [
+        "rgb(255,0,0)",
+        "rgb(0,255,0)",
+        "rgb(0,0,255)"
+      ],
+      "images": []
+    },
+    {
+      "id": 43,
+      "name": "NB Hierro v8 Trail",
+      "brand": "New Balance",
+      "price": "291",
+      "reviews-count": 352,
+      "rate": 4.0,
+      "sold-count": 9239,
+      "inStock": 5,
+      "description": "Take your adventures off-road with confidence. Featuring a Vibram Megagrip outsole for superior traction and a reinforced toe box, this trail specialist keeps you protected and comfortable on the most rugged paths.",
+      "size": [
+        38,
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "color": [
+        "rgb(255,192,203)",
+        "rgb(0,0,0)",
+        "rgb(0,0,255)"
+      ],
+      "images": []
+    },
+    {
+      "id": 44,
+      "name": "NB Fresh Foam Vongo",
+      "brand": "New Balance",
+      "price": "237",
+      "reviews-count": 435,
+      "rate": 3.6,
+      "sold-count": 4721,
+      "inStock": 0,
+      "description": "A dream come true for runners seeking support. The Vongo provides an innovative guidance system that naturally aligns your stride, offering a stable and supportive platform without sacrificing soft, luxurious cushioning.",
+      "size": [
+        36,
+        37,
+        40,
+        41,
+        43
+      ],
+      "color": [
+        "rgb(0,0,255)",
+        "rgb(0,255,0)",
+        "rgb(255,0,0)"
+      ],
+      "images": []
+    },
+    {
+      "id": 45,
+      "name": "NB 1080 Heritage",
+      "brand": "New Balance",
+      "price": "180",
+      "reviews-count": 290,
+      "rate": 4.8,
+      "sold-count": 4100,
+      "inStock": 8,
+      "description": "The ultimate premium daily trainer. With a premium knit upper and top-tier foam technology, it balances luxury aesthetic with performance engineering, making it versatile for both running and all-day wear.",
+      "size": [
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "color": [
+        "rgb(128,128,128)",
+        "rgb(255,255,255)"
+      ],
+      "images": []
+    },
+    {
+      "id": 46,
+      "name": "NB 880 Supportive",
+      "brand": "New Balance",
+      "price": "145",
+      "reviews-count": 310,
+      "rate": 4.4,
+      "sold-count": 5600,
+      "inStock": 12,
+      "description": "Reliability in every step. The 880 is designed for neutral runners who need a dependable, consistent shoe that can handle daily mileage with reliable cushioning and a secure, comfortable fit for long-term use.",
+      "size": [
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "color": [
+        "rgb(0,0,255)",
+        "rgb(0,0,0)"
+      ],
+      "images": []
+    },
+    {
+      "id": 47,
+      "name": "NB 574 Classic",
+      "brand": "New Balance",
+      "price": "90",
+      "reviews-count": 800,
+      "rate": 4.7,
+      "sold-count": 25000,
+      "inStock": 50,
+      "description": "An iconic piece of history. The 574 is a lifestyle masterpiece that combines retro-inspired style with modern comfort, making it the perfect choice for a casual, stylish everyday look that never goes out of fashion.",
+      "size": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "color": [
+        "rgb(128,128,128)",
+        "rgb(0,0,0)"
+      ],
+      "images": []
+    },
+    {
+      "id": 51,
+      "name": "Reebok Nano X4",
+      "brand": "Reebok",
+      "price": "237",
+      "reviews-count": 234,
+      "rate": 4.6,
+      "sold-count": 6438,
+      "inStock": 4,
+      "description": "The ultimate cross-training machine. Designed to be stable for heavy lifting, flexible for plyometrics, and cushioned enough for short runs, this is the only training shoe you will ever need to achieve your goals.",
+      "size": [
+        36,
+        37,
+        38,
+        40
+      ],
+      "color": [
+        "rgb(255,192,203)",
+        "rgb(255,165,0)",
+        "rgb(0,0,255)"
+      ],
+      "images": []
+    },
+    {
+      "id": 52,
+      "name": "Reebok Classic Leather",
+      "brand": "Reebok",
+      "price": "233",
+      "reviews-count": 322,
+      "rate": 3.7,
+      "sold-count": 5585,
+      "inStock": 16,
+      "description": "A timeless legend since 1983. Featuring premium soft leather, this silhouette defines vintage cool. It’s built for durability and everyday comfort, making it a staple in any sneaker enthusiast's collection.",
+      "size": [
+        36,
+        37,
+        38,
+        40,
+        41,
+        43
+      ],
+      "color": [
+        "rgb(255,255,255)",
+        "rgb(255,165,0)",
+        "rgb(0,0,0)"
+      ],
+      "images": []
+    },
+    {
+      "id": 53,
+      "name": "Reebok Zig Kinetica 3",
+      "brand": "Reebok",
+      "price": "180",
+      "reviews-count": 403,
+      "rate": 2.7,
+      "sold-count": 3037,
+      "inStock": 17,
+      "description": "Unconventional performance meets futuristic design. The distinct zigzag sole is engineered to return energy with every step, creating a propulsive feel that keeps you moving forward during high-intensity days.",
+      "size": [
+        37,
+        38,
+        40,
+        42
+      ],
+      "color": [
+        "rgb(0,255,0)",
+        "rgb(0,0,255)",
+        "rgb(255,192,203)"
+      ],
+      "images": []
+    },
+    {
+      "id": 54,
+      "name": "Reebok Floatride Energy",
+      "brand": "Reebok",
+      "price": "120",
+      "reviews-count": 380,
+      "rate": 4.5,
+      "sold-count": 7200,
+      "inStock": 10,
+      "description": "Experience high-performance cushioning that doesn't break the bank. The Floatride foam provides an incredibly lightweight and responsive feel, making it an excellent daily trainer for runners of all levels.",
+      "size": [
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "color": [
+        "rgb(0,0,255)",
+        "rgb(0,0,0)"
+      ],
+      "images": []
+    },
+    {
+      "id": 55,
+      "name": "Reebok Club C 85",
+      "brand": "Reebok",
+      "price": "95",
+      "reviews-count": 650,
+      "rate": 4.8,
+      "sold-count": 15000,
+      "inStock": 30,
+      "description": "Simplicity is the ultimate sophistication. The Club C 85 keeps it clean with a minimalist tennis-inspired look, durable leather upper, and a heritage-inspired color palette that matches any style effortlessly.",
+      "size": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "color": [
+        "rgb(255,255,255)",
+        "rgb(0,0,0)"
+      ],
+      "images": []
+    },
+    {
+      "id": 56,
+      "name": "Reebok Speed 22",
+      "brand": "Reebok",
+      "price": "110",
+      "reviews-count": 210,
+      "rate": 4.0,
+      "sold-count": 4800,
+      "inStock": 8,
+      "description": "Built for explosive movement. Whether you are doing burpees, box jumps, or sprint intervals, this shoe offers the agility and lockdown support you need to perform at your highest level in the gym.",
+      "size": [
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "color": [
+        "rgb(255,0,0)",
+        "rgb(0,0,0)"
+      ],
+      "images": []
+    },
+    {
+      "id": 57,
+      "name": "Reebok Workout Plus",
+      "brand": "Reebok",
+      "price": "100",
+      "reviews-count": 450,
+      "rate": 4.3,
+      "sold-count": 8900,
+      "inStock": 12,
+      "description": "A ruggedized heritage icon. With its H-strap design and durable leather construction, the Workout Plus provides stability and classic style that's ready for both tough workout sessions and weekend casual wear.",
+      "size": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "color": [
+        "rgb(128,128,128)",
+        "rgb(255,255,255)"
+      ],
+      "images": []
+    },
+    {
+      "id": 61,
+      "name": "Saucony Triumph 21",
+      "brand": "Saucony",
+      "price": "212",
+      "reviews-count": 466,
+      "rate": 2.5,
+      "sold-count": 8225,
+      "inStock": 5,
+      "description": "Luxury ride with no compromises. The Triumph delivers ultra-plush cushioning that adapts to your unique foot shape, ensuring comfort from the first mile to the last on your longest training runs.",
+      "size": [
+        36,
+        37,
+        38,
+        41,
+        42,
+        43
+      ],
+      "color": [
+        "rgb(0,0,255)",
+        "rgb(0,255,0)",
+        "rgb(255,0,0)"
+      ],
+      "images": []
+    },
+    {
+      "id": 62,
+      "name": "Saucony Endorphin Speed 3",
+      "brand": "Saucony",
+      "price": "167",
+      "reviews-count": 451,
+      "rate": 3.7,
+      "sold-count": 9239,
+      "inStock": 2,
+      "description": "Fast by design. Featuring a nylon plate that offers a perfect blend of flexibility and propulsion, the Endorphin Speed makes it easier to pick up the pace and smash your personal records during tempo work.",
+      "size": [
+        37,
+        39,
+        42,
+        43
+      ],
+      "color": [
+        "rgb(0,0,0)",
+        "rgb(128,128,128)",
+        "rgb(255,165,0)"
+      ],
+      "images": []
+    },
+    {
+      "id": 63,
+      "name": "Saucony Kinvara 14",
+      "brand": "Saucony",
+      "price": "194",
+      "reviews-count": 401,
+      "rate": 2.8,
+      "sold-count": 1354,
+      "inStock": 5,
+      "description": "The minimalist's dream. Lightweight, responsive, and incredibly flexible, the Kinvara encourages a natural foot strike and allows for a fast, ground-connected feel during your speed training and race sessions.",
+      "size": [
+        36,
+        37,
+        40,
+        41,
+        42,
+        43
+      ],
+      "color": [
+        "rgb(0,0,255)",
+        "rgb(0,0,0)",
+        "rgb(255,0,0)"
+      ],
+      "images": []
+    },
+    {
+      "id": 64,
+      "name": "Saucony Peregrine 13",
+      "brand": "Saucony",
+      "price": "140",
+      "reviews-count": 310,
+      "rate": 4.5,
+      "sold-count": 5100,
+      "inStock": 7,
+      "description": "Conquer any trail with aggressive grip and versatility. The Peregrine is designed for muddy, rocky, and technical terrain, offering the perfect mix of traction, protection, and responsiveness for adventure runners.",
+      "size": [
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "color": [
+        "rgb(0,255,0)",
+        "rgb(0,0,0)"
+      ],
+      "images": []
+    },
+    {
+      "id": 65,
+      "name": "Saucony Guide 16",
+      "brand": "Saucony",
+      "price": "130",
+      "reviews-count": 280,
+      "rate": 4.2,
+      "sold-count": 4500,
+      "inStock": 10,
+      "description": "Stability you can trust. The Guide provides a smooth, supportive ride that keeps your feet in a natural alignment, making it a reliable daily trainer for those who need a little extra help with pronation.",
+      "size": [
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "color": [
+        "rgb(255,255,255)",
+        "rgb(0,0,255)"
+      ],
+      "images": []
+    },
+    {
+      "id": 66,
+      "name": "Saucony Ride 16",
+      "brand": "Saucony",
+      "price": "120",
+      "reviews-count": 350,
+      "rate": 4.0,
+      "sold-count": 6800,
+      "inStock": 12,
+      "description": "Balanced and versatile. The Ride is built for runners who want one shoe that can do it all. It offers a perfect equilibrium of cushioning, support, and responsiveness for a variety of distances and paces.",
+      "size": [
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "color": [
+        "rgb(0,0,0)",
+        "rgb(128,128,128)"
+      ],
+      "images": []
+    },
+    {
+      "id": 67,
+      "name": "Saucony Jazz Original",
+      "brand": "Saucony",
+      "price": "80",
+      "reviews-count": 700,
+      "rate": 4.6,
+      "sold-count": 22000,
+      "inStock": 40,
+      "description": "A true classic that hasn't changed its winning formula. The Jazz Original offers timeless vintage style, comfortable cushioning, and durable construction that makes it an absolute favorite for everyday casual wear.",
+      "size": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "color": [
+        "rgb(128,128,128)",
+        "rgb(0,0,0)"
+      ],
+      "images": []
+    },
+    {
+      "id": 71,
+      "name": "UA HOVR Sonic 6",
+      "brand": "Under Armour",
+      "price": "135",
+      "reviews-count": 331,
+      "rate": 3.5,
+      "sold-count": 7578,
+      "inStock": 1,
+      "description": "The ultimate lightweight runner. With HOVR foam technology that provides a 'zero gravity feel', this shoe is designed to eliminate impact and help you maintain energy during your fastest daily runs.",
+      "size": [
+        36,
+        38,
+        39,
+        40
+      ],
+      "color": [
+        "rgb(0,0,255)",
+        "rgb(0,255,0)",
+        "rgb(255,255,255)"
+      ],
+      "images": []
+    },
+    {
+      "id": 72,
+      "name": "UA Curry Flow 10",
+      "brand": "Under Armour",
+      "price": "229",
+      "reviews-count": 366,
+      "rate": 3.7,
+      "sold-count": 5957,
+      "inStock": 14,
+      "description": "Total control on the court. Utilizing revolutionary Flow technology, this shoe completely eliminates the rubber outsole for a lighter, bouncy feel with unparalleled grip that allows for lightning-fast changes of direction.",
+      "size": [
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "color": [
+        "rgb(0,255,0)",
+        "rgb(255,192,203)",
+        "rgb(0,0,255)"
+      ],
+      "images": []
+    },
+    {
+      "id": 73,
+      "name": "UA Charged Assert 10",
+      "brand": "Under Armour",
+      "price": "148",
+      "reviews-count": 110,
+      "rate": 3.7,
+      "sold-count": 3496,
+      "inStock": 4,
+      "description": "Dependable performance for the everyday athlete. The Charged Cushioning technology protects against impact, while the breathable upper ensures your feet stay cool and dry during intense gym sessions or neighborhood jogs.",
+      "size": [
+        36,
+        37,
+        38,
+        41,
+        43
+      ],
+      "color": [
+        "rgb(0,0,0)",
+        "rgb(128,128,128)",
+        "rgb(0,0,255)"
+      ],
+      "images": []
+    },
+    {
+      "id": 74,
+      "name": "UA HOVR Phantom 3",
+      "brand": "Under Armour",
+      "price": "150",
+      "reviews-count": 420,
+      "rate": 4.2,
+      "sold-count": 6800,
+      "inStock": 10,
+      "description": "Comfort that lasts all day. The Phantom 3 uses an adaptive compression material that fits like a sock, providing support and comfort that adapts to your foot, making it perfect for both workouts and street style.",
+      "size": [
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "color": [
+        "rgb(255,255,255)",
+        "rgb(0,0,0)"
+      ],
+      "images": []
+    },
+    {
+      "id": 75,
+      "name": "UA Project Rock 6",
+      "brand": "Under Armour",
+      "price": "160",
+      "reviews-count": 500,
+      "rate": 4.8,
+      "sold-count": 4200,
+      "inStock": 6,
+      "description": "Built for the hardest workers in the room. This collaboration with Dwayne 'The Rock' Johnson offers maximum stability for lifting, exceptional support, and a look that commands respect in the gym.",
+      "size": [
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "color": [
+        "rgb(0,0,0)",
+        "rgb(128,128,128)"
+      ],
+      "images": []
+    },
+    {
+      "id": 76,
+      "name": "UA HOVR Machina 3",
+      "brand": "Under Armour",
+      "price": "175",
+      "reviews-count": 280,
+      "rate": 4.1,
+      "sold-count": 3900,
+      "inStock": 9,
+      "description": "A coach in your shoes. The Machina is not just a running shoe; it connects to MapMyRun to provide real-time form coaching, helping you become a better runner while you enjoy premium, high-energy return cushioning.",
+      "size": [
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "color": [
+        "rgb(0,0,255)",
+        "rgb(0,0,0)"
+      ],
+      "images": []
+    },
+    {
+      "id": 77,
+      "name": "UA Tribase Reign 5",
+      "brand": "Under Armour",
+      "price": "130",
+      "reviews-count": 390,
+      "rate": 4.6,
+      "sold-count": 5500,
+      "inStock": 11,
+      "description": "Maximize your ground contact. The TriBase technology maximizes ground contact, promotes natural motion, and provides flexible grip during heavy lifts, making it the ultimate tool for functional fitness and strength training.",
+      "size": [
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "color": [
+        "rgb(0,0,0)",
+        "rgb(255,0,0)"
+      ],
+      "images": []
+    },
+    {
+      "id": 81,
+      "name": "Mizuno Wave Rider 27",
+      "brand": "Mizuno",
+      "price": "140",
+      "reviews-count": 482,
+      "rate": 4.5,
+      "sold-count": 7800,
+      "inStock": 12,
+      "description": "The gold standard for daily neutral runners. Featuring the iconic Wave Plate technology, it provides a perfect blend of cushioning and responsiveness, ensuring a smooth, stable, and energized ride for any distance.",
+      "size": [
+        36,
+        38,
+        39,
+        41,
+        42
+      ],
+      "color": [
+        "rgb(0,0,255)",
+        "rgb(255,0,0)",
+        "rgb(255,255,255)"
+      ],
+      "images": []
+    },
+    {
+      "id": 82,
+      "name": "Mizuno Wave Sky 6",
+      "brand": "Mizuno",
+      "price": "170",
+      "reviews-count": 210,
+      "rate": 4.8,
+      "sold-count": 3200,
+      "inStock": 8,
+      "description": "Experience the sensation of floating. With an incredibly thick layer of Enerzy foam, the Wave Sky delivers the softest, most plush cushioning in our lineup, ideal for recovery runs and high-mileage comfort.",
+      "size": [
+        37,
+        39,
+        40,
+        41,
+        43
+      ],
+      "color": [
+        "rgb(255,192,203)",
+        "rgb(0,0,0)",
+        "rgb(0,0,255)"
+      ],
+      "images": []
+    },
+    {
+      "id": 83,
+      "name": "Mizuno Wave Inspire 19",
+      "brand": "Mizuno",
+      "price": "145",
+      "reviews-count": 350,
+      "rate": 4.3,
+      "sold-count": 5100,
+      "inStock": 10,
+      "description": "Support that never feels heavy. Designed for those who overpronate, the Wave Inspire uses a fan-shaped wave plate to guide your foot and prevent inward rolling, all while maintaining a lightweight and snappy feel.",
+      "size": [
+        38,
+        40,
+        41,
+        42,
+        43
+      ],
+      "color": [
+        "rgb(0,0,0)",
+        "rgb(0,255,0)",
+        "rgb(128,128,128)"
+      ],
+      "images": []
+    },
+    {
+      "id": 84,
+      "name": "Mizuno Wave Rebellion",
+      "brand": "Mizuno",
+      "price": "180",
+      "reviews-count": 180,
+      "rate": 4.2,
+      "sold-count": 2400,
+      "inStock": 5,
+      "description": "Unleash your inner speedster. This performance runner incorporates a glass-fiber reinforced plate that delivers explosive energy return and a super-fast toe-off, making it a favorite for race days and tempo sessions.",
+      "size": [
+        39,
+        40,
+        41,
+        42
+      ],
+      "color": [
+        "rgb(255,0,0)",
+        "rgb(0,0,255)"
+      ],
+      "images": []
+    },
+    {
+      "id": 85,
+      "name": "Mizuno Wave Horizon 6",
+      "brand": "Mizuno",
+      "price": "165",
+      "reviews-count": 260,
+      "rate": 4.0,
+      "sold-count": 3900,
+      "inStock": 6,
+      "description": "Maximum stability with a luxurious feel. The Horizon is engineered to provide an incredibly stable platform without the use of traditional stiff posts, offering a smooth, supportive experience for long-distance efforts.",
+      "size": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "color": [
+        "rgb(0,255,0)",
+        "rgb(255,255,255)"
+      ],
+      "images": []
+    },
+    {
+      "id": 86,
+      "name": "Mizuno Wave Prodigy 5",
+      "brand": "Mizuno",
+      "price": "100",
+      "reviews-count": 420,
+      "rate": 3.8,
+      "sold-count": 8200,
+      "inStock": 15,
+      "description": "Reliability meets value. The Wave Prodigy is a great entry-level shoe that offers the signature Mizuno feel, durability, and shock absorption in a versatile package suitable for both walking and light jogging.",
+      "size": [
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "color": [
+        "rgb(0,0,0)",
+        "rgb(0,0,255)"
+      ],
+      "images": []
+    },
+    {
+      "id": 87,
+      "name": "Mizuno Wave Shadow 5",
+      "brand": "Mizuno",
+      "price": "120",
+      "reviews-count": 190,
+      "rate": 4.1,
+      "sold-count": 2800,
+      "inStock": 7,
+      "description": "Fast and agile. The Shadow is designed for runners looking for a lightweight shoe that encourages a quicker turnover. It provides just enough cushioning for daily training while keeping you light on your feet.",
+      "size": [
+        36,
+        37,
+        39,
+        40,
+        41
+      ],
+      "color": [
+        "rgb(255,165,0)",
+        "rgb(0,0,0)"
+      ],
+      "images": []
+    },
+    {
+      "id": 91,
+      "name": "Brooks Ghost 15",
+      "brand": "Brooks",
+      "price": "140",
+      "reviews-count": 950,
+      "rate": 4.9,
+      "sold-count": 32000,
+      "inStock": 25,
+      "description": "The perennial favorite. The Ghost offers a smooth, balanced ride that is perfect for neutral runners. With its soft cushioning and reliable durability, it’s the go-to choice for daily training miles, year after year.",
+      "size": [
+        36,
+        37,
+        38,
+        40,
+        41,
+        42
+      ],
+      "color": [
+        "rgb(0,0,255)",
+        "rgb(0,0,0)",
+        "rgb(255,255,255)"
+      ],
+      "images": []
+    },
+    {
+      "id": 92,
+      "name": "Brooks Adrenaline GTS 23",
+      "brand": "Brooks",
+      "price": "140",
+      "reviews-count": 820,
+      "rate": 4.7,
+      "sold-count": 28500,
+      "inStock": 20,
+      "description": "The ultimate in holistic support. Our GuideRails technology keeps excess movement in check, letting you run naturally while providing the soft, consistent cushioning that makes every run feel better than the last.",
+      "size": [
+        37,
+        39,
+        40,
+        41,
+        43
+      ],
+      "color": [
+        "rgb(255,165,0)",
+        "rgb(255,0,0)",
+        "rgb(0,0,0)"
+      ],
+      "images": []
+    },
+    {
+      "id": 93,
+      "name": "Brooks Glycerin 20",
+      "brand": "Brooks",
+      "price": "160",
+      "reviews-count": 550,
+      "rate": 4.8,
+      "sold-count": 12000,
+      "inStock": 15,
+      "description": "Total comfort, no compromises. With DNA LOFT v3 cushioning, the Glycerin offers a super-soft, nitrogen-infused experience that feels incredibly light and responsive, making long runs feel like a walk in the park.",
+      "size": [
+        38,
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "color": [
+        "rgb(0,255,0)",
+        "rgb(0,0,255)",
+        "rgb(255,192,203)"
+      ],
+      "images": []
+    },
+    {
+      "id": 94,
+      "name": "Brooks Launch 10",
+      "brand": "Brooks",
+      "price": "110",
+      "reviews-count": 410,
+      "rate": 4.2,
+      "sold-count": 9500,
+      "inStock": 18,
+      "description": "Speedy and fun. The Launch is designed for runners who want a lightweight, springy feel that encourages a fast pace. It’s perfect for everything from quick daily training to competitive speed work on the track.",
+      "size": [
+        36,
+        37,
+        39,
+        40,
+        41
+      ],
+      "color": [
+        "rgb(0,0,0)",
+        "rgb(255,0,0)"
+      ],
+      "images": []
+    },
+    {
+      "id": 95,
+      "name": "Brooks Levitate 6",
+      "brand": "Brooks",
+      "price": "150",
+      "reviews-count": 320,
+      "rate": 4.0,
+      "sold-count": 6200,
+      "inStock": 10,
+      "description": "Energy return like you've never felt before. Our DNA AMP midsole provides a high-energy, springy feeling that helps you move faster, while the sleek upper keeps you looking great in any social setting.",
+      "size": [
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "color": [
+        "rgb(0,0,255)",
+        "rgb(255,255,255)"
+      ],
+      "images": []
+    },
+    {
+      "id": 96,
+      "name": "Brooks Cascadia 17",
+      "brand": "Brooks",
+      "price": "140",
+      "reviews-count": 480,
+      "rate": 4.5,
+      "sold-count": 8100,
+      "inStock": 12,
+      "description": "The legendary trail blazer. The Cascadia offers rugged stability and protection for any trail adventure. With an improved outsole for better traction, it keeps you confident and stable on even the most technical paths.",
+      "size": [
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "color": [
+        "rgb(0,0,0)",
+        "rgb(255,165,0)"
+      ],
+      "images": []
+    },
+    {
+      "id": 97,
+      "name": "Brooks Ravenna 12",
+      "brand": "Brooks",
+      "price": "100",
+      "reviews-count": 290,
+      "rate": 3.9,
+      "sold-count": 5500,
+      "inStock": 14,
+      "description": "A perfect balance of support and speed. Designed for runners who want a little bit of stability but don't want to sacrifice a fast, snappy ride, the Ravenna keeps you on track with comfort and style.",
+      "size": [
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "color": [
+        "rgb(0,255,0)",
+        "rgb(0,0,0)"
+      ],
+      "images": []
+    }
+  ],
   "$schema": "./node_modules/json-server/schema.json"
 }

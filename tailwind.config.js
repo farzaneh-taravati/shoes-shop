@@ -6,6 +6,7 @@ export default {
     "bg-[url('/images/bg-2.jpg')]",
     "bg-[url('/images/bg-3.jpg')]",
     "bg-[url('/images/bg-4.jpg')]",
+    "fill-[#152536]"
   ],
   theme: {
     extend: {
@@ -15,5 +16,7 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar-hide')
+  ]
 }

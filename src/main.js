@@ -10,18 +10,32 @@ import "swiper/css/pagination";
 
 //icon
 import { createIcons, icons } from "lucide";
-
-function renderIcons() {
+export function renderIcons() {
     createIcons({ icons });
 }
 
 //login page function import
 import { initLogin } from "./pages/login.js";
 
+//nav component
+import * as navComponent from "./components/nav.js";
+
+//home-header component
+import * as homeHeaderComponent from "./components/home-header.js";
+
+//home
+import { fetchData, getBrands } from './utils/functions.js';
+
+
+// ── map کامپوننت‌ها ────────────────────────────────────────────────
+const componentModules = {
+    nav: navComponent,
+    "home-header": homeHeaderComponent,
+};
 
 
 // ── لود یه صفحه و اجرای init اختصاصی‌اش ──────────────────────────
-export async function loadPage(pageName) {
+export async function loadPage(pageName, params = {}) {
     try {
         const response = await fetch(`/src/pages/${pageName}.html`);
         if (!response.ok) throw new Error(`صفحه ${pageName} پیدا نشد!`);
@@ -37,7 +51,17 @@ export async function loadPage(pageName) {
         } else if (pageName === "onboarding") {
             initOnboarding();
         } else if (pageName === "home") {
-            initSwiper();
+            const homeModule = await import("./pages/home.js");
+            if (typeof homeModule.init === "function") {
+                await homeModule.init();
+                initSwiper();
+            }
+        } else if (pageName === "filterd-products") {
+            const filteredModule = await import("./pages/filterd-products.js");
+            await filteredModule.init(params.brand);
+        } else if (pageName === "seeAll") {
+            const seeAllModule = await import("./pages/seeAll.js");
+            await seeAllModule.init();
         } else if (pageName === "login") {
             initLogin();
         }
@@ -94,6 +118,29 @@ function initSwiper() {
 
     return swiperInstance;
 }
+
+
+// ── load component ────────────────────────────────────────────────────
+export async function loadComponent(name, targetSelector) {
+    try {
+        const response = await fetch(`/src/components/${name}.html`);
+        if (!response.ok) throw new Error(`کامپوننت ${name} پیدا نشد!`);
+
+        const targetElement = document.querySelector(targetSelector);
+        if (!targetElement) throw new Error(`المنت ${targetSelector} پیدا نشد!`);
+
+        targetElement.innerHTML = await response.text();
+
+        // اجرای init کامپوننت
+        const module = componentModules[name];
+        if (module && typeof module.init === "function") {
+            module.init();
+        }
+    } catch (error) {
+        console.error("خطا در بارگذاری کامپوننت:", error);
+    }
+}
+
 
 
 
