@@ -1,0 +1,44 @@
+<!-- header -->
+<div class="h-full w-full">
+    <div id="home-header" class="w-full">This is Home Page</div>
+
+    <div id="home-content" class=" h-full w-full overflow-y-auto mt-20 ">
+        <!-- search and brands -->
+        <div class="px-6 pt-2 pb-4 flex flex-col gap-2.5 ">
+            <!-- search -->
+            <div class="relative flex flex-col w-full">
+            <div
+                class="flex flex-row gap-1 px-3 py-2 h-[37px] bg-[#fafafa] focus-within:border-2 focus-within:border-black">
+                <span data-lucide="search" width="16" height="16"></span>
+                <input id="search-input" type="search" placeholder="Search"
+                    class="w-full text-sm font-normal outline-none bg-transparent">
+            </div>
+            <div id="search-results"
+                class="hidden absolute top-full left-0 w-full bg-white rounded-xl shadow-md mt-2 z-50 max-h-64 overflow-y-auto">
+            </div>
+            </div>
+            <!-- brands -->
+            <div id="brand-container"
+                class="h-[234px] scrollbar-hide w-full overflow-x-auto px-2 py-3 grid grid-rows-2 grid-flow-col gap-4 auto-cols-max justify-center items-center no-scrollbar">
+            </div>
+        </div>
+
+        <!-- filter -->
+        <div class="flex flex-row justify-between px-6 mb-6">
+            <p class="font-semibold text-xl">Most Popular</p>
+            <p id="see-all-btn" class="font-semibold text-base hover:underline">See All</p>
+        </div>
+
+        <div id="filter-brand" class="h-[44px] px-6 py-0 flex flex-row gap-3 overflow-x-scroll no-scrollbar">
+        </div>
+
+        <!-- products -->
+        <div id="product-card-container" class="p-6 grid grid-cols-2 gap-4">
+        </div>
+
+
+    </div>
+
+    <!-- nav -->
+    <div id="nav-container" class="w-full"></div>
+</div>
